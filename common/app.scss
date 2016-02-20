@@ -1,0 +1,14 @@
+/* Foundation CSS */
+@import "_foundation";
+
+/* Font Awesome */
+@import "_fontawesome";
+
+/* App style */
+@import "_colors";
+
+/* Giotto UI */
+@import "../extra-modules/giotto/main";
+
+/* Pages */
+@import "../pages/home/_style";

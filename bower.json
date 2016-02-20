@@ -1,0 +1,23 @@
+{
+  "name": "TCOM",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Stefano Taajeddine Sega <zwonimir@live.it>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.1.2",
+    "system.js": "^0.19.20",
+    "components-font-awesome": "^4.5.0"
+  }
+}

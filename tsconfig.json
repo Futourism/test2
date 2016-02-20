@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "watch": false,
+        "removeComments": true
+    },
+    "exclude": [
+        "apiDummy",
+        "bat",
+        "bin",
+        "bower_components",
+        "documentation",
+        "extra-modules",
+        "node_modules",
+        "public",
+        "typings"
+    ],
+    "bundles": {
+        "components": {
+            "files": ["components/**/*.ts"],
+            "config": {
+                "declaration": true,
+                "outDir": "./",
+                "minify": true,
+                "sourceMap": true
+            }
+        }
+    }
+}
